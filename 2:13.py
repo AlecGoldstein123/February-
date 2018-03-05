@@ -20,7 +20,7 @@ square(200)
 square(250)
 square(300)
 '''
-
+'''
 import turtle as t
 
 def right ():
@@ -47,4 +47,10 @@ def drawDiamond():
     drawSide()
     drawSide()
 drawDiamond()
-       
+       '''
+import turtle as t
+def drawOcto():
+    t.left(45)
+    t.forward(50)
+drawOcto()*7
+
